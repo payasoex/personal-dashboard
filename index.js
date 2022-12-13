@@ -11,7 +11,7 @@ fetch("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&que
 		document.getElementById("author").textContent = `By: Dodi Achmad`
     })
 
-fetch("https://api.coingecko.com/api/v3/coins/shiba-inu")
+fetch("https://api.coingecko.com/api/v3/coins/cardano")
     .then(res => {
         if (!res.ok) {
             throw Error("Something went wrong")
